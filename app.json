@@ -1,24 +1,28 @@
 {
   "expo": {
-    "name": "LucyApp",
-    "slug": "LucyApp",
+    "name": "Lucy",
+    "slug": "lucy-chat",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/lucy.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/lucy.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#05050a"
+    },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "foregroundImage": "./assets/lucy.png",
+        "backgroundColor": "#05050a"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/lucy.png"
     }
   }
 }
+
